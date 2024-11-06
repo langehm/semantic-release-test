@@ -22,7 +22,6 @@ jobs:
           cache: "npm"
       - run: npm ci             # install dependencies
       - run: npm run build      # build library
-      - run: npm run build-storybook # build docs
       - name: upload library artifacts
         uses: actions/upload-artifact@v4
         with:
