@@ -5,7 +5,8 @@
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview",
-    "lint": "eslint . --fix --ignore-path .gitignore"
+    "lint": "eslint . --fix --ignore-path .gitignore",
+    "semantic-release": "semantic-release"
   },
   "dependencies": {
     "@mdi/font": "7.4.47",
@@ -29,6 +30,8 @@
     "eslint-plugin-vue": "^9.27.0",
     "pinia": "^2.1.7",
     "sass": "1.77.6",
+    "semantic-release": "^24.2.0",
+    "semantic-release-gitmoji": "^1.6.8",
     "typescript": "^5.4.2",
     "unplugin-auto-import": "^0.17.6",
     "unplugin-fonts": "^1.1.1",
